@@ -40,7 +40,6 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
 
         // disable HTTP methods for Country: PUT, POST, and DELETE
         disableHttpMethods(Country.class, config, theUnsupportedActions);
-
         // disable HTTP methods for State: PUT, POST, and DELETE
         disableHttpMethods(State.class, config, theUnsupportedActions);
 
